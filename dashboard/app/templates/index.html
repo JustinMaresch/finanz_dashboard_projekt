@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Finanz Dashboard</title>
+    <!-- Bootstrap für Layout -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        h1 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .data {
+            margin-top: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .chart-container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>📊 Finanz Dashboard</h1>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Tabelle -->
+            <div class="col-md-6">
+                <h3>Daten</h3>
+                <div class="table-responsive">
+                    {{ table|safe }}
+                </div>
+            </div>
+
+            <!-- Diagramm -->
+            <div class="col-md-6">
+                <h3>Visualisierung</h3>
+                <div class="chart-container">
+                    {{ chart|safe }}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+flask
+pandas
+sqlalchemy
+psycopg2-binary
+plotly
+apache-airflow==2.6.2
+
+
+
