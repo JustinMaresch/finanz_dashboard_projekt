@@ -4,21 +4,24 @@ Ein Finanz-Dashboard mit ETL-Pipeline und Weboberfläche. Das Projekt verwendet 
 
 Projektstruktur
 
+```plaintext
 finanz_dashboard_projekt/
-├── docker-compose.yml      # Docker Setup für Datenbank + Dashboard
-├── init.sql                # Initiales SQL-Skript für die Datenbank
-├── dags/                   # ETL-Pipelines (z. B. mit Airflow)
+├── docker-compose.yml       # Docker Setup für Datenbank + Dashboard
+├── init.sql                 # Initiales SQL-Skript für die Datenbank
+├── dags/                    # ETL-Pipelines (z. B. mit Airflow)
 │   ├── etl_pipeline.py
-│   └── data/               # Beispieldaten für ETL
-├── dashboard/              # Web-Dashboard
+│   └── data/                # Beispieldaten für ETL
+├── dashboard/               # Web-Dashboard
 │   ├── Dockerfile
 │   ├── requirements.txt
 │   └── app/
 │       ├── app.py
 │       ├── static/
 │       └── templates/
-├── data/                   # Weitere Beispieldaten
-└── .env                    # Umgebungsvariablen (nicht ins Repo hochladen)
+├── data/                    # Weitere Beispieldaten
+└── .env                     # Umgebungsvariablen (nicht ins Repo hochladen)
+```
+
 
 Voraussetzungen
 
