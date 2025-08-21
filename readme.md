@@ -30,7 +30,7 @@ Docker Compose
 
 Installation & Nutzung
 
-.env Datei erstellen (siehe .env.example falls vorhanden) mit den notwendigen Zugangsdaten.
+.env Datei erstellen (siehe .env.example) mit den notwendigen Zugangsdaten.
 
 Docker-Container starten:
 docker-compose up --build
