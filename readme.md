@@ -19,7 +19,7 @@ finanz_dashboard_projekt/
 │       ├── static/
 │       └── templates/
 ├── data/                    # Weitere Beispieldaten
-└── .env                     # Umgebungsvariablen (nicht ins Repo hochladen)
+└── .env                     # Umgebungsvariablen
 ```
 
 
